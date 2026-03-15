@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue
+}
+
+.navigation li, .section li {
+    display: inline;
+}
+
+.navigation ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* nav[aria-label="breadcrumb"] a {
+    text-decoration: ;
+} */
+
+a[aria-current="page"] {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.section > ul {
+    padding: 0;
+    margin: 5px 0px;
+}
